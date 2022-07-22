@@ -9,6 +9,11 @@ python Regularized_S-map_new.py -I ../Input/demo.csv -O ../Output/output_demo
 ```
 The code for regularized S-map could be download from https://github.com/JoneYu45/Regularized_S-map_Python <sup>2</sup>.
 
+After calculation, a directory named "output_demo" will be created under the Output directory, which contains the csv tables of interaction strengths among different microbes. 
+
+## Visualization of the varying micorbial interaction
+We have used ggplot in R to visualize the varying micorbial interaction. Please run the varying_interaction.R for visualization.
+
 ## References
 1. Jiang, X.-T.; Ye, L.; Ju, F.; Wang, Y.-L.; Zhang, T., Toward an Intensive Longitudinal Understanding of Activated Sludge Bacterial Assembly and Dynamics. Environmental Science & Technology 2018, 52, (15), 8224-8232.
 2. Yu, Z.; Gan, Z.; Huang, H.; Zhu, Y.; Meng, F., Regularized S-Map Reveals Varying Bacterial Interactions. Applied and Environmental Microbiology 2020, 86, (20), e01615-20.
