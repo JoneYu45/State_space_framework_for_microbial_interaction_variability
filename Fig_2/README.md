@@ -7,7 +7,7 @@ A time series is required for the analysis. The time series of activated sludge 
 ```
 python Regularized_S-map_new.py -I ../Input/demo.csv -O ../Output/output_demo
 ```
-The code for regularized S-map could be download from https://github.com/JoneYu45/Regularized_S-map_Python.
+The code for regularized S-map could be download from https://github.com/JoneYu45/Regularized_S-map_Python <sup>2</sup>.
 
 ## References
 1. Jiang, X.-T.; Ye, L.; Ju, F.; Wang, Y.-L.; Zhang, T., Toward an Intensive Longitudinal Understanding of Activated Sludge Bacterial Assembly and Dynamics. Environmental Science & Technology 2018, 52, (15), 8224-8232.
