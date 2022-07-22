@@ -3,7 +3,7 @@
 This directory provides the codes and for creating the scatter plots of varying microbial interaction strength.
 
 ## Data preparation
-The time series <sup>1</sup>.
+A time series is required for the analysis. The time series of activated sludge community in current study was created by QIIME2 using the raw sequences from NCBI accession number PRJNA324303 <sup>1</sup>.
 
 ## References
 1. Jiang, X.-T.; Ye, L.; Ju, F.; Wang, Y.-L.; Zhang, T., Toward an Intensive Longitudinal Understanding of Activated Sludge Bacterial Assembly and Dynamics. Environmental Science & Technology 2018, 52, (15), 8224-8232.
