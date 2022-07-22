@@ -5,7 +5,7 @@ library(ggplot2)
 tht <- 1
 
 #Data input
-data_loc <- 'D:/PythonProject/Nonlinear_dynamics_Sludge_community/FINDER/code/J_abd/HKD_Midas_L7/coefs'
+data_loc <- '../Output/output_demo/coefs'
 coefs_files <- dir(data_loc)
 wanted_coefs_files_loc <- grep(paste('_', tht,'_coefs.csv', sep = ''), coefs_files)
 wanted_coefs_files <- coefs_files[wanted_coefs_files_loc]
