@@ -12,7 +12,7 @@ The code for regularized S-map could be download from https://github.com/JoneYu4
 After calculation, a directory named "output_demo" will be created under the Output directory, which contains the csv tables of interaction strengths among different microbes. 
 
 ## Visualization of the varying micorbial interaction
-We have used ggplot in R to visualize the varying micorbial interaction. Please run the varying_interaction.R for visualization.
+We have used ggplot in R to visualize the varying micorbial interaction. Please run the varying_interaction.R for visualization. You can change different theta (0.1, 0.5, 1, 2, 5, or 10) to explore the effect of theta on S-map analysis (Line 5). Furthermore, you can focus on different target (Line 72) and source (Line 73) nodes.
 
 ## References
 1. Jiang, X.-T.; Ye, L.; Ju, F.; Wang, Y.-L.; Zhang, T., Toward an Intensive Longitudinal Understanding of Activated Sludge Bacterial Assembly and Dynamics. Environmental Science & Technology 2018, 52, (15), 8224-8232.
