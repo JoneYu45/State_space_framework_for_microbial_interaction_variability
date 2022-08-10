@@ -51,7 +51,7 @@ tht = 2
 
 #Input data and process
 df = pd.DataFrame(columns=['Source', 'Target', 'Day', 'J'])
-Data_path = 'E:\\学习\\研究生\\研究生课题\\大规模污泥群落数据统计\\数据\\DaDa_analysis\\Midas_analysis\\HKD_Midas_L7\\coefs'
+Data_path = './HKD_Midas_L7/coefs'
 files = os.listdir(Data_path)
 coefs_tht = [x for x in files if '_'+str(tht)+'_' in x]
 for coef_tht in coefs_tht:
