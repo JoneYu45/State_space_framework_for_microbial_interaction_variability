@@ -1,6 +1,6 @@
 # Visualize the Varying Microbial Interaction Network
 ## Introduction
-This directory provides the codes and for creating the network plots of varying microbial interaction strength.
+This directory provides the codes for creating the network plots of varying microbial interaction strength.
 
 ## Data preparation
 Run the Regularized S-map analysis according to the README.md in ../Fig_2, and you will get a directory containing the varying interaction strength between every two microbes in Output/output_demo.
