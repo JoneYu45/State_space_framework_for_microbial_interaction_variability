@@ -1,6 +1,6 @@
 # Explore the Varying Microbial Interaction Network
 ## Introduction
-This directory provides the codes and for creating the scatter plots of varying microbial interaction strength.
+This directory provides the codes for creating the scatter plots of varying microbial interaction strength.
 
 ## Data preparation
 A time series is required for the analysis. The time series of activated sludge community in current study was created by QIIME2 using the raw sequences from NCBI accession number PRJNA324303 <sup>1</sup>. After preparing the time series data, use the regularized S-map to calculate the varying microbial interaction strengths by the following codes:
