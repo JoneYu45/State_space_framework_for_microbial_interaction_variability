@@ -51,7 +51,7 @@ tht = 2
 
 #Input data and process
 df = pd.DataFrame(columns=['Source', 'Target', 'Day', 'J'])
-Data_path = './HKD_Midas_L7/coefs'
+Data_path = '../Output/output_demo/coefs'
 files = os.listdir(Data_path)
 coefs_tht = [x for x in files if '_'+str(tht)+'_' in x]
 for coef_tht in coefs_tht:
