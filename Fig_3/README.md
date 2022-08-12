@@ -18,9 +18,9 @@ python ./Locally_Weighted_Regression/Function/Locally_Weighted_Regression_202201
 
 It should be mentioned that we have tried our code with the sparse matrix but it did not go well. So the analysis without rare species is recommended. We are now working on this issue.
 The analysis can take a long time (weeks or even months), depending on the taxa number and sample number in your dataset. Here we provided a speedup solution. After running the aforementioned code, you can also runs the reversed version of LWR
+```
 python ./Locally_Weighted_Regression/Function/Locally_Weighted_Regression_20220121_WOT1_R.py -I ../Input/demo.csv -R ../Input/reference_demo.csv -O ../Output/LWR_output_demo -D 80 -Z 20
 ```
-
 This should shorten the analysis time by half. Moreover, if you have a powerful computer, simply change the num_cores in line 143 of Locally_Weighted_Regression_20220121_WOT1.py. It should help to speed up your analysis, too.
 
 There are many other parameters needed adjustment, e.g., theta (θ), thetaps (θps). You can refer to our paper for further details. If you still have any question, don't hesitate to send me an email.
