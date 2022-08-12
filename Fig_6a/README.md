@@ -9,5 +9,5 @@ After the calculation of real time interaction strengths among microbes, you wil
 The tutorial and codes of FINDER is avaialbale at https://github.com/FFrankyy/FINDER. Input the directory we created in the last step.
 
 ## Visualize the FINDER result
-FINDER will return a directory containing the pairwise connectivity contribution of each microbe in the network. In our study, there are 13 microbes and 259 networks in total. Therefore, we have used the heatmap to visualize the contribution of each microbe at different state. Run FINDER_Plot.R to recreate the Fig 6a in our paper.
+FINDER will return a directory containing the pairwise connectivity contribution of each microbe in the network. In our study, there are 13 microbes and 259 networks in total. Therefore, we have used the heatmap to visualize the contribution of each microbe at different states. Run FINDER_Plot.R to recreate the Fig 6a in our paper.
 Change data_loc in Line 6 if you have saved the FINDER result somewhere.
