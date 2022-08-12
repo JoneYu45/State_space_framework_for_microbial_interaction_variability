@@ -1,7 +1,8 @@
 # State_space_framework_for_microbial_interaction_variability
 ## Introduction
-This repository provides the codes and demo files for the analysis of our paper "State-Space-Based Framework for Predicting Microbial Interaction Variability in Wastewater Treatment Plants". If you are interested in our work, please refer to https://pubs.acs.org/doi/abs/10.1021/acs.est.2c02844. Hope our framework can help you with your own research.
+This repository provides the codes and demo files for the analysis of our paper "State-Space-Based Framework for Predicting Microbial Interaction Variability in Wastewater Treatment Plants" <sup>1</sup>. If you are interested in our work, please refer to https://pubs.acs.org/doi/abs/10.1021/acs.est.2c02844. Hope our framework can help you with your own research.
 
-(2022-08-10): More details for the codes will be updated soon. Thank you for your patience.
+(2022-08-12): The tutorial of our framework has been updated. Thank you for your patience.
 
 ## Reference
+1. Yu Z, Huang Y, Gan Z, et al. State-Space-Based Framework for Predicting Microbial Interaction Variability in Wastewater Treatment Plants[J]. Environmental Science & Technology, 2022.
