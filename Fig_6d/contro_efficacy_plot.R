@@ -2,7 +2,7 @@
 library(ggplot2)
 
 #Data location
-path <- 'E:/学习/研究生/研究生课题/大规模污泥群落数据统计/数据/resubmission_data/control_L7_20220228_abd1_Z50_thtps2_C001'
+path <- '../Output/control_simulation_demo'
 workbook <- paste(path, 'Control_efficacy.csv', sep = '/')
 
 #Input data
