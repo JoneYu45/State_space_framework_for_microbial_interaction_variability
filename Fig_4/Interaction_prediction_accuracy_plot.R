@@ -63,7 +63,7 @@ Find_coef_when_i_change <- function(
 
 ###########################################################################################
 #Data location
-path <- 'E:/学习/研究生/研究生课题/大规模污泥群落数据统计/数据/DaDa_analysis/Midas_analysis'
+path <- '../Output'
 
 ###########################################################################################
 #Summarize different theta
@@ -73,7 +73,7 @@ colnames(results) <- c('tht', 'Accuracy')
 for (focus_tht in c(0.1, 0.5, 1, 2, 10)) {
   #Summarize S-map results
   ##Locate subpath
-  sub_path <- paste(path, 'HKD_Midas_L7/coefs', sep = '/')
+  sub_path <- paste(path, 'output_demo/coefs', sep = '/')
   coefs_files <- dir(sub_path)
   
   ##Setting theta and find wanted coef files
@@ -100,7 +100,7 @@ for (focus_tht in c(0.1, 0.5, 1, 2, 10)) {
   ###########################################################################################
   #Summarize DD S-map results
   ##Locate subpath and input abund
-  sub_path <- paste(path, 'HKD_DD_S_map/HKD_manifold_abd1_tht1_thtps01_Z50', sep = '/')
+  sub_path <- paste(path, 'LWR_output_demo', sep = '/')
   abund <- read.csv(paste(sub_path, 'abund.csv', sep = '/'), row.names = 1)
   
   ##Collect coefs with increasing and decreasing node
