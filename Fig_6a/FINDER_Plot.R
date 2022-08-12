@@ -3,7 +3,7 @@ library(pheatmap)
 library(ggplot2)
 
 #Locate data
-data_loc <- 'E:/学习/研究生/研究生课题/大规模污泥群落数据统计/数据/resubmission_data/HKD_FINDER'
+data_loc <- 'somewhere_you_save_the_FINDER_results/HKD_FINDER'
 
 #Prepare collection table
 collection_table <- array(0, dim = c(259, 14))
@@ -37,24 +37,3 @@ pheatmap(t(collection_table), cluster_row = F, cluster_cols = F, cellheight = 18
          angle_col = '0', labels_col = '', fontsize = 14,
          annotation_row = annotation_row, annotation_legend = F)
 
-#Boxplot
-input <- data.frame(array(NA, dim = c(nrow(collection_table)*ncol(collection_table), 2)))
-colnames(input) <- c('OTU', 'Closeness Centrality')
-for (i in 1:ncol(collection_table)) {
-  input[1:nrow(collection_table)+(i-1)*nrow(collection_table),1] <- as.character(i-1)
-  input[1:nrow(collection_table)+(i-1)*nrow(collection_table),2] <- collection_table[,i]
-}
-
-ggplot(input, aes(x=OTU, y=`Closeness Centrality`))+
-  theme(panel.grid.major =element_line(size = 1),
-        axis.title.x = element_blank(),
-        axis.title.y = element_text(size = 14, colour = "black"),
-        axis.text.x = element_text(size = 12, colour = "black"),
-        axis.text.y = element_text(size = 12, colour = "black"),
-        axis.line = element_line(linetype = "solid", size = 0.5),
-        panel.background = element_rect(color = "black", size = 0.5),
-        panel.grid.minor = element_blank(),
-        legend.position = 'none'
-  )+
-  geom_boxplot()+
-  scale_x_discrete(limits=c(as.character(0:(ncol(collection_table)-1))))
