@@ -1,10 +1,10 @@
 #Environment setup
 library(ggplot2)
-setwd('E:/学习/研究生/研究生课题/大规模污泥群落数据统计/数据/DaDa_analysis')
+setwd('../')
 
 #Data input
-path <- 'Midas_analysis'
-sub_path <- c('HKD_Midas_L7')
+path <- 'Output'
+sub_path <- c('LWR_output_demo')
 
 ##########################################################################
 #Collect info
