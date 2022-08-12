@@ -63,7 +63,7 @@ Find_coef_when_i_change <- function(
 
 #Find the steady interaction according to the global pattern
 #Data location
-path <- 'E:/学习/研究生/研究生课题/大规模污泥群落数据统计/数据/DaDa_analysis/Midas_analysis/HKD_DD_S_map'
+path <- '../Output/LWR_output_demo'
 
 #Summarize DD S-map results
 ##Locate subpath and input abund
