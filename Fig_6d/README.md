@@ -11,6 +11,5 @@ There is one new parameter, i.e., the control input (-C). It represent the incre
 ```
 python Control_Simulation.py -I ../Input/demo.csv -R ../Input/reference_demo.csv -O ../Output/control_simulation_demo -C 0.5
 ```
+The analysis will return a directory containing the csv file of simulation result. You can select some result for visualization.
 
-## Visualize the results
-Run contro_efficacy_plot.R
