@@ -59,7 +59,7 @@ def Transfer_J_abd_2(J_abd_pah, output_file):
 if __name__=="__main__":
     # Parameters concerned
     theta = '1'
-    J_abd_pah = 'J_abd/HKD_Midas_L7'
+    J_abd_pah = '../Output/LWR_output_demo'
     input_type = ['uniform_cost', 'random_cost', 'degree_cost'][2]
 
     #Transfer J_abd to FINDER input
