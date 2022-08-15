@@ -23,6 +23,8 @@ python ./Locally_Weighted_Regression/Function/Locally_Weighted_Regression_202201
 ```
 This should shorten the analysis time by half. Moreover, if you have a powerful computer, simply change the num_cores in Line 143 of Locally_Weighted_Regression_20220121_WOT1.py. It should help to speed up your analysis, too.
 
+Sometime, your computer or server could crash due to certain reasons, which will abort the computation. But no worry! Simple rerun the code, without changing the any parameter, and it should continue the computation.
+
 There are many other parameters needed adjustment, e.g., theta (θ), thetaps (θps). You can refer to our paper for further details. If you still have any question, don't hesitate to send me an email.
 
 ## Quality control for  the LWR results
